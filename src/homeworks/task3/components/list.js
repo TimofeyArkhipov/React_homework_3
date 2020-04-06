@@ -8,7 +8,7 @@ function List() {
 
         return(
             <div>
-                <button>Theme</button>
+                {/*<button>Theme</button>*/}
                 <NewTask addTask={handleAddTodo}/>
                 {tasks.map(task =>
                     <TaskItem
